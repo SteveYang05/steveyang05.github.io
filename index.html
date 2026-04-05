@@ -5,277 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Steve Yang is a computer science student building thoughtful web experiences and practical software projects."
+      content="Zhan Yang (Steve Yang) — computer science student at USTB, interested in web development, AI-assisted tools, and chart understanding."
     />
-    <meta name="theme-color" content="#ede6f6" />
-    <title>Steve Yang | Personal Homepage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
-      rel="stylesheet"
-    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>About Me — Zhan Yang</title>
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <div class="page-glow page-glow-one" aria-hidden="true"></div>
-    <div class="page-glow page-glow-two" aria-hidden="true"></div>
-    <div class="page-noise" aria-hidden="true"></div>
-
-    <header class="site-header">
-      <a class="logo" href="#home">Zhan Yang</a>
-      <nav class="nav" aria-label="Main navigation">
+    <header class="masthead">
+      <a class="masthead-name" href="#home">Zhan Yang</a>
+      <nav class="masthead-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
         <a href="#focus">Focus</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main id="home">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="hero-kicker">Computer Science Student • Builder</p>
-          <h1 id="hero-title" class="hero-title">
-            A personal site that feels more like a point of view than a resume.
-          </h1>
-          <p class="hero-subtitle">
-            I am Steve Yang, also known as Zhan Yang.
-          </p>
-          <p class="hero-lead">
-            I study at the University of Science and Technology Beijing and
-            enjoy turning rough ideas into clear, working products. Right now I
-            am especially interested in web development, AI-assisted tools, and
-            chart understanding.
-          </p>
+    <main id="home" class="content">
+      <section id="about" class="block" aria-labelledby="about-heading">
+        <h1 id="about-heading">Zhan Yang (Steve Yang)</h1>
+        <p class="role">Computer Science Student · Builder</p>
 
-          <div class="hero-actions">
+        <ul class="meta-list">
+          <li>Beijing, China</li>
+          <li>
+            University of Science and Technology Beijing, School of Computer
+            and Communication
+          </li>
+          <li>
+            <a href="mailto:18611839963@163.com">Email</a>
+          </li>
+          <li>
             <a
-              class="btn btn-primary"
-              href="#projects"
-            >
-              View Selected Work
-            </a>
-            <a
-              class="btn btn-secondary"
               href="https://github.com/SteveYang05"
               target="_blank"
               rel="noopener noreferrer"
+              >GitHub</a
             >
-              GitHub Profile
-            </a>
-            <a class="btn btn-ghost" href="mailto:18611839963@163.com">
-              Email Me
-            </a>
-          </div>
+          </li>
+        </ul>
 
-          <div class="hero-strip" aria-label="Quick facts">
-            <span>Based in Beijing</span>
-            <span>USTB · School of Computer and Communication</span>
-            <span>Learning by building in public</span>
-          </div>
-        </div>
+        <h2>About me</h2>
+        <p>
+          I study at the University of Science and Technology Beijing and enjoy
+          turning rough ideas into clear, working products. Right now I am
+          especially interested in web development, AI-assisted tools, and chart
+          understanding.
+        </p>
+        <p>
+          This site is a small place to list what I am learning and building, in
+          a straightforward way.
+        </p>
+      </section>
 
-        <aside class="hero-panel" aria-label="Profile snapshot">
-          <p class="panel-tag">Snapshot</p>
-          <h2 class="panel-title">What this website is for</h2>
-          <p class="panel-text">
-            Not just a place to list links, but a small digital home for the
-            things I am learning, making, and refining over time.
+      <section id="focus" class="block" aria-labelledby="focus-heading">
+        <h2 id="focus-heading">Focus</h2>
+
+        <h3>Understanding visual information</h3>
+        <p>
+          Chart understanding interests me because it sits between computer
+          vision, data, and communication. It turns images into something
+          computable and useful.
+        </p>
+
+        <h3>Learning through small shipped projects</h3>
+        <p>
+          I learn fastest when I make real things, even if they start simple.
+          Shipping reveals what matters and what still needs work.
+        </p>
+      </section>
+
+      <section id="interests" class="block" aria-labelledby="interests-heading">
+        <h2 id="interests-heading">Tools and interests</h2>
+        <p>
+          HTML / CSS, JavaScript, Python, Git &amp; GitHub, web development,
+          computer vision, AI exploration, problem solving.
+        </p>
+      </section>
+
+      <section id="projects" class="block" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+
+        <article class="work-item">
+          <h3>
+            Chart Understanding
+            <span class="work-note">Current</span>
+          </h3>
+          <p>
+            A project centered on interpreting chart images and extracting
+            structured meaning from visual data. It reflects my interest in
+            bridging perception, analysis, and usability.
           </p>
-
-          <div class="panel-list">
-            <div class="panel-item">
-              <span class="panel-label">Current goal</span>
-              <strong>Create thoughtful, usable software</strong>
-            </div>
-            <div class="panel-item">
-              <span class="panel-label">Areas I keep returning to</span>
-              <strong>Frontend, visual data, practical tooling</strong>
-            </div>
-            <div class="panel-item">
-              <span class="panel-label">Working style</span>
-              <strong>Curious, iterative, product-minded</strong>
-            </div>
-          </div>
-        </aside>
-      </section>
-
-      <section id="focus" class="section" aria-labelledby="focus-title">
-        <div class="section-head">
-          <p class="section-tag">Focus</p>
-          <h2 id="focus-title" class="section-title">What I am leaning into</h2>
-        </div>
-
-        <div class="focus-grid">
-          <article class="focus-card">
-            <p class="focus-index">01</p>
-            <h3>Understanding visual information</h3>
-            <p>
-              Chart understanding interests me because it sits between computer
-              vision, data, and communication. It turns images into something
-              computable and useful.
-            </p>
-          </article>
-
-          <article class="focus-card">
-            <p class="focus-index">02</p>
-            <h3>Learning through small shipped projects</h3>
-            <p>
-              I learn fastest when I make real things, even if they start
-              simple. Shipping reveals what matters and what still needs work.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" aria-labelledby="stack-title">
-        <div class="section-head">
-          <p class="section-tag">Stack</p>
-          <h2 id="stack-title" class="section-title">Tools and interests</h2>
-        </div>
-
-        <div class="chips">
-          <span class="chip">HTML / CSS</span>
-          <span class="chip">JavaScript</span>
-          <span class="chip">Python</span>
-          <span class="chip">Git &amp; GitHub</span>
-          <span class="chip">Web Development</span>
-          <span class="chip">Computer Vision</span>
-          <span class="chip">AI Exploration</span>
-          <span class="chip">Problem Solving</span>
-        </div>
-      </section>
-
-      <section id="projects" class="section" aria-labelledby="projects-title">
-        <div class="section-head">
-          <p class="section-tag">Projects</p>
-          <h2 id="projects-title" class="section-title">Selected work</h2>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card featured-project">
-            <div class="project-top">
-              <span class="project-badge">Current project</span>
-              <h3 class="project-title">Chart Understanding</h3>
-            </div>
-
-            <p class="project-text">
-              A project centered on interpreting chart images and extracting
-              structured meaning from visual data. It reflects my interest in
-              bridging perception, analysis, and usability.
-            </p>
-
-            <div class="project-tags">
-              <span>Computer Vision</span>
-              <span>Visual Data</span>
-              <span>Information Extraction</span>
-            </div>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/SteveYang05"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View GitHub
-              </a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <span class="project-badge muted-badge">In progress</span>
-              <h3 class="project-title">This personal homepage</h3>
-            </div>
-
-            <p class="project-text">
-              A living experiment in how to present myself online with more
-              clarity, stronger writing, and better visual direction.
-            </p>
-
-            <div class="project-tags">
-              <span>Frontend</span>
-              <span>GitHub Pages</span>
-              <span>Personal Branding</span>
-            </div>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/SteveYang05/steveyang05.github.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source Code
-              </a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-top">
-              <span class="project-badge muted-badge">Next</span>
-              <h3 class="project-title">More small tools and experiments</h3>
-            </div>
-
-            <p class="project-text">
-              I plan to keep adding compact projects here as I learn, so the
-              site becomes a trail of actual work instead of a static profile.
-            </p>
-
-            <div class="project-tags">
-              <span>Iteration</span>
-              <span>Learning in Public</span>
-              <span>Portfolio Growth</span>
-            </div>
-
-            <div class="project-links">
-              <a
-                href="https://github.com/SteveYang05"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Follow Updates
-              </a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="section" aria-labelledby="contact-title">
-        <div class="contact-shell">
-          <div class="contact-copy">
-            <p class="section-tag">Contact</p>
-            <h2 id="contact-title" class="section-title">
-              If something here resonates, let&apos;s connect
-            </h2>
-            <p class="contact-text">
-              I am still early in the journey, but I care a lot about getting
-              better in public. GitHub is the easiest place to see what I am
-              building, and email works best for a direct conversation.
-            </p>
-          </div>
-
-          <div class="contact-grid">
+          <p class="work-links">
             <a
-              class="contact-card"
               href="https://github.com/SteveYang05"
               target="_blank"
               rel="noopener noreferrer"
+              >GitHub</a
             >
-              <span class="contact-label">GitHub</span>
-              <span class="contact-value">github.com/SteveYang05</span>
-            </a>
+          </p>
+        </article>
 
-            <a class="contact-card" href="mailto:18611839963@163.com">
-              <span class="contact-label">Email</span>
-              <span class="contact-value">18611839963@163.com</span>
-            </a>
-          </div>
-        </div>
+        <article class="work-item">
+          <h3>
+            This personal homepage
+            <span class="work-note muted">In progress</span>
+          </h3>
+          <p>
+            A simple personal page hosted on GitHub Pages, updated as I refine
+            how I present my work.
+          </p>
+          <p class="work-links">
+            <a
+              href="https://github.com/SteveYang05/steveyang05.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source</a
+            >
+          </p>
+        </article>
+
+        <article class="work-item">
+          <h3>
+            More small tools and experiments
+            <span class="work-note muted">Next</span>
+          </h3>
+          <p>
+            I plan to keep adding compact projects as I learn, so this list
+            grows over time.
+          </p>
+          <p class="work-links">
+            <a
+              href="https://github.com/SteveYang05"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </article>
+      </section>
+
+      <section id="contact" class="block" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>
+          I am still early in the journey, but I care about getting better in
+          public. GitHub is the easiest place to see what I am building; email
+          works best for a direct conversation.
+        </p>
+        <p>
+          <a href="mailto:18611839963@163.com">18611839963@163.com</a>
+          &nbsp;·&nbsp;
+          <a
+            href="https://github.com/SteveYang05"
+            target="_blank"
+            rel="noopener noreferrer"
+            >github.com/SteveYang05</a
+          >
+        </p>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Steve Yang · Hosted on GitHub Pages</p>
+      <p>
+        © <span id="year"></span> Zhan Yang. Hosted on
+        <a
+          href="https://github.com/SteveYang05/steveyang05.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub Pages</a
+        >.
+      </p>
     </footer>
 
     <script>
